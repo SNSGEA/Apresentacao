@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-pt" title="SNSGEA - Escritórios de Advogados">
+<head>
+    <meta charset="utf-8" lang="pt-pt" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SNSGEA - Escritórios de Advogados</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet" />
+    <!-- Custom Fonts -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Login css -->    
+    <link href="css/login.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.hmtl">SNSGEA</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    </li>
+                     <li>
+                        <a href="services.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="Default.aspx">Contacto</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modulos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links Uteis<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://www.citius.mj.pt/portal/default.aspx">Portal Citius</a>
+                            </li>
+                            <li>
+                                <a href="https://portal.oa.pt/">Ordem dos Advogados</a>
+                            </li>
+                            <li>
+                                <a href="http://www.portaldasfinancas.gov.pt/at/html/index.html">Autoridade Tributária</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image: url('images/Slide1.png');"></div>
+                <div class="carousel-caption">
+                    <h2>SNSGEA</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image: url('images/Slide2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>SNSGEA</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image: url('images/Slide3.png');"></div>
+                <div class="carousel-caption">
+                    <h2>SNSGEA</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">SNSGEA - Escritórios de Advogados
+                </h1>
+            </div>
+            <!-- Janela de Login -->
+            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="loginmodal-container">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h5 class="modal-title" id="exampleModalLabel">SNSGEA - Login</h5>
+
+                        </div>
+
+                        <br />
+                        <form id="Form1" runat="server">
+                            <input type="text" name="user" placeholder="Username" />
+                            <input type="password" name="pass" placeholder="Password" />
+                            <asp:Button ID="Button1" CssClass="login loginmodal-submit" Text="Login" runat="server" OnClick="Login" />
+                        </form>
+
+                        <div class="login-help">
+                            <a href="#">Registar</a> - <a href="#">Esqueci-me da Password</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw   fa-calendar"></i>Agenda</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Pode agendar todos os prazos judiciais, Julgamentos, Reuniões, em suma todo tipo de eventos para os quais necessita ser alertado e o prazo com o qual o quer ser. A agenda tem um sistema de alertas que o ajuda a que não falte a nenhum compromisso.
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-clock-o"></i>Folha de Horas</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Através da Folha de Horas controlamos e calculamos todo tempo de trabalho individual e colectivo em cada processo ou cliente, sabendo efectivamente qual o contributo de cada advogado em cada acto. Existe uma distinção entre horas internas e horas facturadas ao cliente.
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-ticket"></i>Cronómetro</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            O Cronómetro é a ferramenta que contabiliza todo tempo de trabalho efectuado pelo advogado e que imputa, através do lançamento automático na folha de horas, esse tempo ao processo ou ao cliente seleccionado. Os periodos minimos podem ser configurados.
+
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-briefcase"></i>Processos</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Este módulo permite gerir eficientemente e de uma forma facilmente acessível toda a informação intrínseca aos Processos e ainda os seus documentos, conta corrente, folha de horas e agenda.
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw  fa-users"></i>Clientes</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            A Gestão de clientes é feita também de um modo integrado com os seus processos, folha de horas, conta corrente e documentos, com informação de saldo de conta corrente.A informação esta disposta for forma a ser facilmente acessida.
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw  fa-money"></i>Conta Corrente</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            A conta corrente permite ter um controlo sobre os movimentos de tesouraria (Provisões,Honorários, Despesas Judiciais,Despesas Correntes, etc...) dos processos ou dos clientes. É uma ferramenta fundamental na gestão do escritório.
+                        </p>
+                        <a href="#" class="btn btn-default">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw  fa-archive"></i>Gestão Documental</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            A Gestão documental integrada possibilita a criação de repositórios digitais de documentos organizados por cliente, processo ou escritório. Garante o acesso aos documentos anywhere em real time e on demand. Repositório de modelos de documentos do escritório.
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw  fa-dashboard"></i>Dashboard</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            É aqui que se encontram os indicadores de Gestão que permitem controlar a rentabilidade do escritório. Com um olhar consegue-se ter uma perspectiva da situação do escritório. Encontramos aqui informação sobre clientes, processos, tempos e contas correntes.
+                        </p>
+                        <a href="#" class="btn btn-default" hidden="hidden">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+            <hr />
+
+            <div class="container">
+                <div class="row">
+                    <div class="modal hide" id="myModal">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h3>Login to MyWebsite.com</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form method="post" action='post' name="login_form">
+                                <p>
+                                    <input type="text" class="span3" name="eid" id="email" placeholder="Email"/>
+                                </p>
+                                <p>
+                                    <input type="password" class="span3" name="passwd" placeholder="Password"/>
+                                </p>
+                                <p>
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                    <a href="#">Forgot Password?</a>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            New To MyWebsite.com?
+           
+                            <a href="#" class="btn btn-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <hr />
+
+        <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; SNSOFT/2024</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+</body>
+
+</html>
